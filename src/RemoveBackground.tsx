@@ -34,7 +34,7 @@ export const RemoveBackground = () => {
   return (
     <div>
       <h1>Remove Background 😎</h1>
-      {isLoading && <h2>Loading.....</h2>}
+      {isLoading && <h2>Loading..</h2>}
       <FileUploader
         handleChange={removeBackgroundAPI}
         name="file"
