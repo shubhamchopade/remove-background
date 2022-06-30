@@ -18,7 +18,7 @@ export const RemoveBackground = () => {
       body: formdata,
     };
 
-    fetch("http://72.230.76.236:5000", requestOptions)
+    fetch("https://api.techsapien.dev", requestOptions)
       .then((response) => {
         response.blob().then((blobresp) => {
           setImage(URL.createObjectURL(blobresp));
